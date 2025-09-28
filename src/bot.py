@@ -65,7 +65,7 @@ async def convert_to_mp3(update: Update, context: ContextTypes.DEFAULT_TYPE):
                 'preferredcodec': 'mp3',
                 'preferredquality': '192',
             }],
-            'ffmpeg_location': '/home/larr0t/mudozvon/bin/ffmpeg',
+            'ffmpeg_location': '/path/to/venv/bin/ffmpeg',
             'quiet': False
         }
 
